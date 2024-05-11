@@ -1,0 +1,21 @@
+<% include ./partials/Header.ejs %>
+  <div class="w-full h-screen bg-cover bg-center  bg-[url(https://images.unsplash.com/photo-1527769929977-c341ee9f2033?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] flex items-center justify-center">
+    <div class="w-[20vw]  h-[60vh] bg-white px-5 py-5 rounded-md">
+    <h1 class="text-3xl text-center font-bold text-zinc-700 tracking-tighter capitalize leading-none" >Welcome to pinterest.</h1>
+    <form action="">
+      <input  class=" border-2 rounded-md  block w-full mx-3 my-3 px-3 py-2" type="text" name="usename" placeholder="usename">
+      <input class=" border-2 rounded-md  block w-full mx-3 my-3 px-3 py-2" type="password" name="password" placeholder="password">
+      <a class=" mx-3 my-3 border-2 font-semibold text-zinc-500 inline-block" href="#">Forget password</a>
+      <input class=" border-2  mx-3 my-3 block w-full px-3 py-2 bg-red-600 text-white rounded-md" type="submit">
+
+      <p>Lorem ipsum dolor sit amet consectetur.</p>
+
+
+
+    </form>
+
+    <a class="rounded-sm font-semibold text-zinc-700 text-center w-full" href="/register">don't have an account</a>
+  </div>
+  </div>
+
+  <% include ./partials/Footer.ejs %>
